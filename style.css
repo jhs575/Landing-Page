@@ -1,0 +1,63 @@
+.heroBg{
+    background-image: url(heroBG.png);
+    padding-bottom: 660px;
+    background-size: cover;
+}
+.bg{
+    background-image: url(BG.png);
+}
+.BG_1{
+    background-image: url(BG_1.png);
+}
+
+.quote{
+    position: relative;
+    
+}
+.quote p{
+    font-size: 24px;
+    font-family: b612;  
+}
+.quote_image, .quote_dash{
+    position: absolute;
+    top: -15px;
+    left: -5px;
+}
+.quote_dash{
+    top: 15px;
+    left: -85px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.dividor{
+    position: relative;
+}
+.dividor-img{
+    position: absolute;
+    left: -10px;
+    top: 47px;
+}
+
+.subscribeUs{
+    background-image: url(subs.png);
+    height: 380px;
+    width: 1920px;
+}
+.subsBox{
+    margin: 75px 0  !important;
+
+    height: 230px;
+    width: 1200px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.fc-black{
+    color: black;
+    cursor: pointer;
+}
+.end{
+    grid-template-columns: repeat(5,minmax(0,1fr));
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
