@@ -41,12 +41,11 @@
 
 .subscribeUs{
     background-image: url(subs.png);
-    height: 380px;
+    /* height: 380px; */
     width: 1920px;
 }
 .subsBox{
     margin: 75px 0  !important;
-
     height: 230px;
     width: 1200px;
     border-radius: 10px;
